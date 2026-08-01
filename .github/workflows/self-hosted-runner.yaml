@@ -3,6 +3,6 @@ on: workflow_dispatch
 
 jobs:
   self-hosted:
-    runs-on: class
+    runs-on: dpp04
     steps:
       - run: echo "Running on a self-hosted runner (my own machine)"
